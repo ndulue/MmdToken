@@ -1,0 +1,21 @@
+{
+  "name": "Mmd Token sale",
+  "version": "1.0.0",
+  "description": "Mmd Token crowdsale",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "truffle": "^5.1.46"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}

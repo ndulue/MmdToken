@@ -1,0 +1,356 @@
+{
+  "contractName": "MmdToken",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"totalSupply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/xampp/blockchain/token/contracts/MmdToken.sol\":\"MmdToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/xampp/blockchain/token/contracts/MmdToken.sol\":{\"keccak256\":\"0x4bb25c0f8321f05f6ae3544e81350b0bede01c75a2a85d4909c62064e899ac57\",\"urls\":[\"bzz-raw://ce10abf0e9b27084b6b3b5cf3ab6499f405b0ea0901f976d71ef6a89814244ef\",\"dweb:/ipfs/QmazTR2i2oYZ1nrFxYn3RqvXJh8wTL3ngjUff5QDLQpgjh\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50620f42406000819055506084806100286000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820dd591944a0346598fbb6e3693cda58d6fbe28e45c401e68048232c1eb11adce364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806318160ddd14602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820dd591944a0346598fbb6e3693cda58d6fbe28e45c401e68048232c1eb11adce364736f6c63430005100032",
+  "sourceMap": "28:142:1:-;;;104:61;8:9:-1;5:2;;;30:1;27;20:12;5:2;104:61:1;150:7;136:11;:21;;;;28:142;;;;;;",
+  "deployedSourceMap": "28:142:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:142:1;;;;;;;;;;;;;;;;;;;72:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.16;\r\n\r\ncontract MmdToken {\r\n    //Constructor\r\n    uint public totalSupply;\r\n\r\n    constructor() public {\r\n        totalSupply = 1000000;\r\n    }\r\n\r\n}",
+  "sourcePath": "C:/xampp/blockchain/token/contracts/MmdToken.sol",
+  "ast": {
+    "absolutePath": "/C/xampp/blockchain/token/contracts/MmdToken.sol",
+    "exportedSymbols": {
+      "MmdToken": [
+        45
+      ]
+    },
+    "id": 46,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 45,
+        "linearizedBaseContracts": [
+          45
+        ],
+        "name": "MmdToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "totalSupply",
+            "nodeType": "VariableDeclaration",
+            "scope": 45,
+            "src": "72:23:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "72:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 43,
+              "nodeType": "Block",
+              "src": "125:40:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 41,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 39,
+                      "name": "totalSupply",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 36,
+                      "src": "136:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "31303030303030",
+                      "id": 40,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "150:7:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1000000_by_1",
+                        "typeString": "int_const 1000000"
+                      },
+                      "value": "1000000"
+                    },
+                    "src": "136:21:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 42,
+                  "nodeType": "ExpressionStatement",
+                  "src": "136:21:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 44,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 37,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:2:1"
+            },
+            "returnParameters": {
+              "id": 38,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:0:1"
+            },
+            "scope": 45,
+            "src": "104:61:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 46,
+        "src": "28:142:1"
+      }
+    ],
+    "src": "0:170:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/xampp/blockchain/token/contracts/MmdToken.sol",
+    "exportedSymbols": {
+      "MmdToken": [
+        45
+      ]
+    },
+    "id": 46,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 45,
+        "linearizedBaseContracts": [
+          45
+        ],
+        "name": "MmdToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 36,
+            "name": "totalSupply",
+            "nodeType": "VariableDeclaration",
+            "scope": 45,
+            "src": "72:23:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "72:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 43,
+              "nodeType": "Block",
+              "src": "125:40:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 41,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 39,
+                      "name": "totalSupply",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 36,
+                      "src": "136:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "31303030303030",
+                      "id": 40,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "150:7:1",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1000000_by_1",
+                        "typeString": "int_const 1000000"
+                      },
+                      "value": "1000000"
+                    },
+                    "src": "136:21:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 42,
+                  "nodeType": "ExpressionStatement",
+                  "src": "136:21:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 44,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 37,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "115:2:1"
+            },
+            "returnParameters": {
+              "id": 38,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "125:0:1"
+            },
+            "scope": 45,
+            "src": "104:61:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 46,
+        "src": "28:142:1"
+      }
+    ],
+    "src": "0:170:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x66621B706D159530776672F3b2F171F518FB2689",
+      "transactionHash": "0x331a02448aa53c5cca60aba5d91a9079809031ef525ee89494ecfc325bd9862e"
+    }
+  },
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2020-10-15T21:51:56.569Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
